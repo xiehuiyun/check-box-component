@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<xhy-check-box-group @change="setSelect" :selectList="select">
-			<xhy-check-box label="box1" value="1" :size="size"></xhy-check-box>
+			<xhy-check-box label="box1" value="1" :size="size" color="#0000ff"></xhy-check-box>
 			<xhy-check-box label="box2" value="3" :size="size"></xhy-check-box>
 		</xhy-check-box-group>
 		
